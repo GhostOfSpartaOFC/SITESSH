@@ -34,7 +34,7 @@ mkdir -p site
 
 cd site
 
-wget https://github.com/K1R170/SITESSH/blob/master/anon.tar?raw=true
+wget https://github.com/K1R170/SITESSH/raw/master/anon.tar
 
 tar -xf anon.tar
 
