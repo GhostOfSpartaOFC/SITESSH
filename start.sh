@@ -38,7 +38,7 @@ fi
 
 limite=$(cat contas.txt | wc -l)
 
-if [ "$limite" -ge "10" ]
+if [ "$limite" -ge "150" ]
 then
 echo "<div class='container'>"
 
@@ -47,7 +47,7 @@ echo	"<div id='login-form'>"
 echo    	"<div class='col-md-12'>"
         
 echo        	"<div class='form-group'>"
-            	"<p class='p'>CRIAR CONTA GRÁTIS<p/>"
+            	"<p class='p'>K1R170SSH GRATIS<p/>"
 echo            "</div>"
 echo "<p class='p'>LIMITE DE CONTAS EXECIDO!<p/>"
 echo '<a href="index.php" class="btn btn-block btn-default" name="btn-login">Voltar</button>'
