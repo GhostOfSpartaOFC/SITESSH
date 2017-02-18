@@ -58,14 +58,13 @@ fi
 validade=$(date '+%C%y/%m/%d' -d " +72 hours")
 validadebr=$(date '+%d/%m/%C%y' -d " +72 hours")
 
-
 sudo useradd -M -s /bin/false $1 -e $validade
 
 (echo $2 ; echo $2) | passwd $1
 
 echo "$1" >> contas.txt
+echo "$1 1" >> /root/usuarios.db
 echo '	<div id="login-form">'
-    
 echo '    	<div class="col-md-12">'
         
 echo	'<div id="caixa">CONTA CRIADA COM SUCESSO!<h5><center>Seu usuário tem validade de 3 dias. </center></h5>'
@@ -75,5 +74,5 @@ echo "<div class='h5'><center>Senha: $2</center></h5>"
 echo "<div class='h5'><center>Proxy: 174.138.79.219: 80 e 3128</center></h5>"
 echo '	</div></div></div></div></div>'
 echo '		<hr>'
-echo '            	<a href="https://t.me/vlenin" class="btn btn-block btn-default" name="btn-login">Desenvolvedor</button></center>'
+echo '            	<a href="https://t.me/k1r170" class="btn btn-block btn-default" name="btn-login">Desenvolvedor</button></center>'
 echo '<a href="index.php" class="btn btn-block btn-default" name="btn-login">Voltar</button></center>'
