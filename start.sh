@@ -29,7 +29,7 @@ echo	"<div id='login-form'>"
 echo    	"<div class='col-md-12'>"
         
 echo        	"<div class='form-group'>"
-            	"<p class='p'>CRIAR CONTA GRÁTIS<p/>"
+            	"<p class='p'>K1R170SSH GRATIS<p/>"
 echo            "</div>"
 echo "<p class='p'>USUÁRIO EXISTENTE!<p/>"
 echo '<a href="index.php" class="btn btn-block btn-default" name="btn-login">Voltar</button>'
@@ -68,12 +68,12 @@ echo '	<div id="login-form">'
     
 echo '    	<div class="col-md-12">'
         
-echo	'<div id="caixa">CONTA CRIADA COM SUCESSO!<h5><center>Seu usuário tem validade de 2 dias. </center></h5>'
+echo	'<div id="caixa">CONTA CRIADA COM SUCESSO!<h5><center>Seu usuário tem validade de 3 dias. </center></h5>'
 echo "<div class='h5'><center>Servidor: 174.138.79.219</center></h5>"
 echo "<div class='h5'><center>Usuário: $1</center></h5>"
 echo "<div class='h5'><center>Senha: $2</center></h5>"
 echo "<div class='h5'><center>Proxy: 174.138.79.219: 80, 8080 e 3128</center></h5>"
 echo '	</div></div></div></div></div>'
 echo '		<hr>'
-echo '            	<a href="https://t.me/vlenin" class="btn btn-block btn-default" name="btn-login">Desenvolvedor</button>'
-echo '<a href="index.php" class="btn btn-block btn-default" name="btn-login">Voltar</button>'
+echo '            	<a href="https://t.me/vlenin" class="btn btn-block btn-default" name="btn-login">Desenvolvedor</button></center>'
+echo '<a href="index.php" class="btn btn-block btn-default" name="btn-login">Voltar</button></center>'
