@@ -64,9 +64,9 @@ sudo limit $usuario 1 >/dev/null 2>/dev/null
 (echo $2 ; echo $2) | passwd $1
 
 echo "$1" >> contas.txt
-echo '	<div id="login-form
+echo '	<div id="login-form">'
+    
 echo '    	<div class="col-md-12">'
-        
 echo	'<div id="caixa">CONTA CRIADA COM SUCESSO!<h5><center>Seu usuário tem validade de 3 dias. </center></h5>'
 echo "<div class='h5'><center>Servidor: 174.138.79.219</center></h5>"
 echo "<div class='h5'><center>Usuário: $1</center></h5>"
