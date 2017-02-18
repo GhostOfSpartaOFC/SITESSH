@@ -10,7 +10,7 @@ echo '<head>'
 echo '<link rel="apple-touch-icon" href="http://download.seaicons.com/icons/hopstarter/scrap/256/Globe-icon.png"/>'
 echo '<link rel="shotcurt icon" href="http://download.seaicons.com/icons/hopstarter/scrap/256/Globe-icon.png"/>'
 echo '<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />'
-echo '<title>Anonymous SSH</title>'
+echo '<title>K1R170 SSH</title>'
 echo '<link rel="stylesheet" href="assets2/css/bootstrap.min.css" type="text/css"  />'
 echo '<link rel="stylesheet" href="style.css" type="text/css" />'
 echo '</head>'
@@ -72,7 +72,7 @@ echo	'<div id="caixa">CONTA CRIADA COM SUCESSO!<h5><center>Seu usuário tem vali
 echo "<div class='h5'><center>Servidor: 174.138.79.219</center></h5>"
 echo "<div class='h5'><center>Usuário: $1</center></h5>"
 echo "<div class='h5'><center>Senha: $2</center></h5>"
-echo "<div class='h5'><center>Proxy: 174.138.79.219: 80, 8080 e 3128</center></h5>"
+echo "<div class='h5'><center>Proxy: 174.138.79.219: 80 e 3128</center></h5>"
 echo '	</div></div></div></div></div>'
 echo '		<hr>'
 echo '            	<a href="https://t.me/vlenin" class="btn btn-block btn-default" name="btn-login">Desenvolvedor</button></center>'
