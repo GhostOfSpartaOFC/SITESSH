@@ -59,6 +59,7 @@ validade=$(date '+%C%y/%m/%d' -d " +72 hours")
 validadebr=$(date '+%d/%m/%C%y' -d " +72 hours")
 
 sudo useradd -M -s /bin/false $1 -e $validade
+limit $usuario 1 >/dev/null 2>/dev/null
 
 (echo $2 ; echo $2) | passwd $1
 
